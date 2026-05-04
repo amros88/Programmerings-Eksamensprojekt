@@ -1,7 +1,13 @@
-html, body {
+html,
+* {
   margin: 0;
   padding: 0;
 }
-canvas {
-  display: block;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #909090;
 }
